@@ -1,0 +1,142 @@
+
+.grid-container {
+    display: grid;
+    width: 70rem;
+      margin-left: auto;
+  margin-right: auto;
+    margin-top: 1rem;
+    grid-gap: 20px;
+    background-color: lightgray;
+    padding: 20px;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-template-areas:
+    "a a b c"
+    "d g g c" ;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+  
+  }
+  button{
+    background-color: blue;
+  }
+  
+  /*#third {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end:3
+  } */
+  #first{
+    grid-area:a;
+    background-color: BlueViolet;
+  }
+  
+  #second{
+    grid-area: b;
+      background-color: darkgray;
+  }
+  
+  #third{
+    grid-area: c;
+  }
+  #fourth{
+    grid-area: d;
+  }
+  #fifth{
+    grid-area: g;
+    background-color: #1a1a1a;
+  }
+  
+  #michelle{
+    border-radius: 50%;
+    margin-top: 0rem;
+    margin-left: -28rem;
+    width: 40px;
+    height: auto;
+  }
+  strong{
+      display: block;
+      margin-left: -18.2rem;
+      margin-top: -2.8rem;
+    font-size: 13px;
+    color: white;
+  }
+  small{
+      display: block;
+      margin-left: -19.5rem;
+      margin-top: 0rem;
+     font-size: 13px;
+     color: white;
+  }
+  
+  #dona{
+    border-radius: 50%;
+    margin-top: 0rem;
+    margin-left: -12rem;
+    width: 40px;
+    height: auto;
+  }
+  strongdona{
+      display: block;
+      margin-left: -2rem;
+      margin-top: -2.8rem;
+    font-size: 13px;
+    color: white;
+  }
+  smalldona{
+      display: block;
+      margin-left: -3rem;
+      margin-top: 0rem;
+     font-size: 13px;
+     color: white;
+  }
+  #bora{
+    border-radius: 50%;
+    margin-top: 0rem;
+    margin-left: -12rem;
+    width: 40px;
+    height: auto;
+  }
+  strongbora{
+      display: block;
+      margin-left: -2rem;
+      margin-top: -2.8rem;
+    font-size: 13px;
+    color: black;
+  }
+  smallbora{
+      display: block;
+      margin-left: -3rem;
+      margin-top: 0rem;
+     font-size: 13px;
+     color: black;
+  }
+  
+  .bigbox{
+    border-radius: 2%;
+  }
+  .smallbox{
+    border-radius: 2%;
+  }
+  .tallbox{
+    border-radius: 2%;
+  }
+  
+  p{
+    font-style: solid;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+  }
+  h6{
+    font-style: solid;
+    font-size: 18px;
+    color: black;
+    text-align: left;
+  }
